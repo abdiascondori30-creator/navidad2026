@@ -1,0 +1,56 @@
+body{
+    background-image: url(../img/fondo2.avif);
+}
+#regalos {
+    background-color: green;
+    border: 3px solid yellow;
+    padding: 20px;
+    margin: 15px;
+}
+#regalos .encabezado {
+    text-align: center;
+    color: #ffe599;
+    margin-bottom: 6px;
+}
+#regalos .aviso {
+    text-align: center;
+    color: #fffdf7;
+    margin-bottom: 18px;
+}
+.controles {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#campo {
+    padding: 8px;
+    border: 2px solid #e6b84c;
+    width: 240px;
+}
+#agregar {
+    background-color: #b83227;
+    color: whitesmoke;
+    border: 2px solid #e6b84c;
+    padding: 8px ;
+}
+#limpiar {
+    background-color: wheat;
+    color: #1b3b2b;
+    border: 2px solid #e6b84c;
+    padding: 8px 14px;
+}
+.lista {
+    background-color: whitesmoke;
+    border: 2px solid #b83227;
+    padding: 15px ;
+    color: #222222;
+}
+.lista h3 {
+    color: #7a1c1c;
+    margin-bottom: 10px;
+}
+#lista-regalos li {
+    background-color: white;
+    border: 1px solid #2d6a4f;
+    padding: 12px;
+    margin-bottom: 8px;
+}

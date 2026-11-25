@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalos</title>
+    <link rel="stylesheet" href="../estilos/estilo4.css">
+    <script src="../js/java4.js"></script>
+</head>
+<body>
+    <header>
+        <h1 align="center">Navidad</h1> 
+        <nav align="center">
+            <a href="../index.html"><button type="button">bienvenida</button></a>
+            <a href="../paginas/historia.html"><button type="button">historia</button></a>
+            <a href="../paginas/personajes.html"><button type="button">personajes</button></a>
+            <a href="#"><button type="button">Regalos</button></a>
+            <a href="../paginas/comida.html"><button type="button">Comida</button></a>
+        </nav>
+    </header>
+    <hr>
+    <section id="regalos">
+        <h2 class="encabezado">Lista de Regalos Navideños</h2>
+        <p class="aviso">Escribe un regalo y agrégalo a tu lista.</p>
+        <div class="controles">
+            <input type="text" id="campo" placeholder="Ej. Pelota, libro, audífonos...">
+            <button type="button" id="agregar" onclick="agregarRegalo()">Agregar</button>
+            <button type="button" id="limpiar" onclick="limpiarRegalos()">Borrar todo</button>
+        </div>
+        <div class="lista">
+            <h3>Mis regalos:</h3>
+            <ul id="lista-regalos"></ul>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <h2>Diseñado por: Abdias Condori Rojas</h2>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comida</title>
+    <link rel="stylesheet" href="../estilos/estilo5.css">
+    <script src="../js/java1.js"></script>
+</head>
+<body>
+    <header>
+        <h1 align="center">Navidad</h1> 
+        <nav align="center">
+            <a href="../index.html"><button type="button">bienvenida</button></a>
+            <a href="../paginas/historia.html"><button type="button">historia</button></a>
+            <a href="../paginas/personajes.html"><button type="button">personajes</button></a>
+            <a href="../paginas/regalos.html"><button type="button">Regalos</button></a>
+            <a href="#"><button type="button">Comida</button></a>
+        </nav>
+    </header>
+    <hr>
+    <section id="comida">
+        <h2 class="encabezado">Comida Típica de Navidad</h2>
+        <p class="aviso">Haz clic en Pavo o Panetón para ver ingredientes y precio.</p>
+    
+        <div class="fila">
+            <div class="plato">
+                <img src="../img/pavo.jpg" alt="Pavo al horno">
+                <h3>Pavo al Horno</h3>
+                <button type="button" onclick="verPavo()">Ver detalle</button>
+            </div>
+            <div class="plato">
+                <img src="../img/paneton.jpg" alt="Panetón navideño">
+                <h3>Panetón</h3>
+                <button type="button" onclick="verPaneton()">Ver detalle</button>
+            </div>
+        </div>
+        <div id="info">
+            <div id="detalle-texto">
+                <p id="texto-plato">Selecciona Pavo o Panetón para ver sus ingredientes y precio en Bs.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <h2>Diseñado por: Abdias Condori Rojas</h2>
+    </footer>
+</body>
+</html>

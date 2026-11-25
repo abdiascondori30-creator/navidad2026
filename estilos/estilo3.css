@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/fondo2.avif);
+}
+#zona {
+    background-color: #7a1c1c;
+    border: 3px solid yellow;
+    padding: 20px;
+    text-align: center;
+}
+.titulo {
+    color: yellow;
+    margin-bottom: 20px;
+}
+.fila {
+    display: flex;
+    justify-content: center;
+}
+.ficha {
+    background-color: whitesmoke;
+    border: 2px solid #2d6a4f;
+    padding: 15px;
+    margin: 10px;
+    width: 220px;
+}
+.ficha img {
+    width: 100%;
+    height: 160px;
+    border: 1px solid #999999;
+    margin-bottom: 10px;
+}
+.ficha h3 {
+    color: #1b3b2b;
+    margin-bottom: 10px;
+}
+.ficha button {
+    background-color: #b83227;
+    color: white;
+    border: none;
+    padding: 12px;
+}
